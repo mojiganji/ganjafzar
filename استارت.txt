@@ -1,5 +1,0 @@
-  cd mojgan\1400\marjan.site\envs\envs20\Scripts
-
-  cd marjan.site\ganjafzar\ganjafzar
-
-  python manage.py runserver
