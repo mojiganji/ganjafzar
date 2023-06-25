@@ -7,4 +7,4 @@ def home(request):
     return render(request, 'home.html')
     
 def python(request):
-    return render(request, 'python.html')
+    return render(request, 'programming.html')
