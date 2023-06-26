@@ -49,7 +49,8 @@ header nav .nav-right a{
 
 header nav .nav-right span{
   margin-left:15px;
-  border:1px solid white;
+  border:1px solid rgb(90, 87, 87);
+  border-radius: 15%;
   padding:5px 10px;
   background-color:rgb(187, 184, 184);
   color:white;
@@ -127,13 +128,13 @@ header nav .nav-left .register-login-btn a{
 }
 
 .slider .buttons i{
-  color: white;
+  color:rgb(148, 145, 145);
   margin-right: 5px;
   cursor: pointer;
 }
 
 .slider .buttons i:hover{
-  color:  rgba(255, 255, 255, .4);;
+  color:  gold;
 }
 
 
@@ -205,6 +206,7 @@ a {
     
 }
 .card {
+  height:390px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -347,6 +349,42 @@ footer .bottom{
   color: rgba(255, 255, 255, .9);
 
 }
+
+
+@media screen and (max-width:900px){
+.slider .slides .item span{
+  font-size: 2.2em;
+  margin-right:110px;
+  margin-top:210px; 
+}
+.slider .buttons i{
+  font-size:10px;
+    
+ }
+}
+
+@media screen and (max-width:600px){
+  header nav  {
+    flex-direction:column;
+  }
+  header nav .nav-right  {
+  display:block;
+  margin-top:10px;
+  text-align:center;
+  }
+  .main-container{
+    font-size:1.3em;
+  }
+   .slider .slides .item span{
+  font-size: 1.1em;
+  margin-right:100px;
+  margin-top:210px; 
+}
+.slider .buttons i{
+  display:none;
+ }
+}
+
 
 
 
