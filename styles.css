@@ -358,7 +358,7 @@ footer .bottom{
   margin-top:210px; 
 }
 .slider .buttons i{
-  font-size:10px;
+display:none;
     
  }
 }
@@ -379,10 +379,7 @@ footer .bottom{
   font-size: 1em;
   margin-right:100px;
   margin-top:210px; 
-}
-.slider .buttons i{
-  display:none;
- }
+   }
 }
 
 
