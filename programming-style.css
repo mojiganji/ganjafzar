@@ -1,8 +1,8 @@
 /*main.css*/
-{%load static%}
+
 @font-face{
     font-family: iran;
-    src: url( "{%static 'fonts/shabnam.ttf'%}");
+    src: url( 'fonts/shabnam.ttf');
   }
   
   *{
