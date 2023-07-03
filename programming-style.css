@@ -1,0 +1,144 @@
+/*main.css*/
+{%load static%}
+@font-face{
+    font-family: iran;
+    src: url( "{%static 'fonts/shabnam.ttf'%}");
+  }
+  
+  *{
+    direction: rtl;
+    font-family: shabnam;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+    font-size: 16px ;
+  margin: 0px ;
+    background-size: contain;
+    position: relative;
+  }
+  
+  
+  a{
+    text-decoration: none ;
+  }
+  
+  p {
+    line-height: 2.5 !important;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 2 !important;
+  }
+
+  /*home.css*/
+  
+  header{
+    font-size: 1em;
+  }
+  
+  /* navigation section  */
+  
+  header nav{
+    display: flex;
+    justify-content: space-between ;
+    padding:5px 15px;
+    font-size: 1em;
+  }
+  
+  header nav .nav-right{
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav .nav-right a{
+    color: #444;
+    
+    margin: 0px 5px;
+    font-size: 1.1em;
+    
+  }
+  
+  header nav .nav-right span{
+    margin-left:15px;
+    border:1px solid rgb(120, 76, 148);
+    border-radius: 15%;
+    padding:5px 10px;
+    background-color:rgb(204, 174, 216);
+    color:white;
+  }
+  
+  header nav .nav-left .register-login-btn{
+    border: 1px solid rgb(158, 129, 177);
+    margin:10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+  }
+  
+  header nav .nav-left .register-login-btn i{
+    margin: 7px;
+    color: rgb(73, 33, 100);
+    font-size: 1.1em;
+  
+  }
+  
+  header nav .nav-left .register-login-btn a{
+    color: rgb(119, 75, 133);
+    margin: 0px 10px;
+    font-size: .9em;
+  }
+  header .container{
+    margin:70px;
+  }
+  
+    @media screen and (max-width:1200px){
+      .col-lg-8{
+        padding-right:50px;
+      }
+  }
+
+  @media screen and (max-width:900px){
+    .slider .slides .item span{
+      font-size: 2.2em;
+      margin-right:110px;
+      margin-top:210px; 
+    }
+    .slider .buttons i{
+      font-size:10px;
+        
+     }
+    }
+    
+    @media screen and (max-width:600px){
+      header nav  {
+        flex-direction:column;
+      }
+      header nav .nav-right  {
+      display:block;
+      margin-top:10px;
+      text-align:center;
+      }
+      .main-container{
+        font-size:1.3em;
+      }
+       .slider .slides .item span{
+      font-size: 1.1em;
+      margin-right:100px;
+      margin-top:210px; 
+    }
+    .slider .buttons i{
+      display:none;
+     }
+    }
+    
+    
+
