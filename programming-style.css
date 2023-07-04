@@ -43,7 +43,7 @@
     font-size: 1em;
   }
   
-  /* navigation section  */
+   /* navigation section  */
   
   header nav{
     display: flex;
@@ -99,6 +99,7 @@
   header .container{
     margin:70px;
   }
+  
   
     @media screen and (max-width:1200px){
       .col-lg-8{
