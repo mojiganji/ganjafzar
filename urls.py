@@ -11,8 +11,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
     path('programming' , views.programming),
-    path('artificial-intelligence' , views.artificial-intelligence),
-    path('data-maining' , views.data-maining),
-    path('machine-learning' , views.machine-learning),
+    path('artificial-intelligence' , views.artificial),
+    path('data-maining' , views.data),
+    path('machine-learning' , views.machine),
 ]
 
