@@ -9,13 +9,13 @@ def home(request):
 def programming(request):
     return render(request, 'programming.html')
 
-def programming(request):
-    return render(request, 'artificial.html')
+def neural(request):
+    return render(request, 'neural.html')
 
 
-def programming(request):
+def data(request):
     return render(request, 'data.html')
 
 
-def programming(request):
+def machine(request):
     return render(request, 'machine.html')
