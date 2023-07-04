@@ -1,0 +1,141 @@
+{%load static%}
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" href='all.min.css'>
+      <link rel="stylesheet" href='bootstrap.min.css' >
+      <link rel="stylesheet" href='programming-style.css'>
+      <link rel="stylesheet" href='animate.css'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href='flexboxgrid.css' />
+      <link rel="stylesheet" href='owl.carousel.min.css'>
+      <link rel="stylesheet" href= 'owl.theme.default.min.css'>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      />
+      <title>
+        programming
+      </title>
+
+    </head>
+<body>
+    <div class="main-container">
+        <header>
+          <nav class="navbar navbar-expand-md bg-white navbar-white" style="box-shadow:0px -12px 7px 10px rgba(115, 45, 136, 0.2);">
+            <div class="nav-right">
+              <img class="navbar-brand" style="width: 60px; height: 60px; border-radius: 50%;" src='images/logo.jpg' alt="">
+              <a href=""><div><span>صفحه اصلی</span></div></a>
+              <a href=""><div><span>فروشگاه</span></div></a>
+              <a href=""><div><span>ویدیوها</span></div></a>
+              <a href=""><div><span>تماس با ما</span></div></a>
+            </div>
+            <div class="nav-left">
+              <div class="register-login-btn">
+                <i class="fas fa-user" style="color:rgb(141, 93, 185)"></i>
+                <a href="#" style="color:rgb(141, 93, 185); font-size:18px">ثبت نام / ورود</a>
+              </div>
+            </div>
+          </nav>
+
+
+
+
+
+
+          <div class="container pb-5">
+            <div class="article-card mt-5">
+              <div class="row">
+                <div class="col-lg-4" style="margin-top:50px;">
+                  <div class="text-center " >
+
+                    <img style="border-radius: 20px; padding:0px; width:295px; height:207px;" class="col-sm-12 col-md-12 col-lg-12 mb-3" src='images/a3.jpg' alt="">
+
+                  </div>
+                </div>
+                <div class="col-lg-8" >
+                  <h4 style=" font-size:1.9em; color:rgb(102, 56, 146)" class="">
+                    شبکه های عصبی(Neural-Networ)
+
+                </h4>
+          
+                  <div class="d-flex flex-wrap justify-content-between align-articles-center" style="height:50px;" >
+                    <h6 class="text-muted" style="height:50px;"  >
+                      <a class="text-dark" href="/profile/m_h_sw">
+
+                        
+                        <img style="width: 50px; height: 50px; border-radius: 50%; background-color: rgb(165, 121, 204);" src='images/logo.jpg' alt="">
+                        
+                         <!--
+                        <span class="mr-2" style="font-size:1.7em; margin-right:15px;  color:rgb(117, 51, 161)">
+                            مرجان گنجی
+                              </span>  -->
+                      </a>
+                      <!-- <span class="mr-2 ml-2 mt-2">/</span> -->
+                      <!--  ۱۲ اردیبهشت ۹۹ -->
+                    </h6>
+                    <!-- <h5 class="text-muted">۰ بازدید</h5> -->
+                  </div>
+                  <h6 class="text-muted mt-3" style="font-size:15px; color:rgb(189, 135, 189)">
+                    <span>تاریخ : </span>
+                    <span>  
+                        تیر 1402
+
+                    </span>
+                  </h6>
+                  <!--
+                  <h5 class="text-muted mt-3">
+                    <span id="numberlike">۱۸۱</span>
+                    <i class="far fa-heart text-danger"></i>
+                 </h5>
+                -->
+                </div>
+              </div>
+          
+              <p  class="text-muted mt-5"></p>
+          <p dir="RTL"><span style="font-size:2em; color:rgb(71, 68, 68);"><strong>
+            #شبکه های -عصبی
+
+        </strong></span></p>
+        <p dir="RTL"style="font-size:22px; color:rgb(105, 102, 102);"> به نام خداوند جان. صحبت درباره علم شبکه عصبی برای بنده نه تنها یک علم بلکه یک تکلیف می باشد. تکلیفی که بر خودم واجب می دانم این علم در حال فوران را در حد توانم در اختیار اطرافیانم قرار دهم.  </p>
+
+        <p dir="RTL" style="font-size:22px; color:rgb(105, 102, 102);"> شاید درست نباشد گفتن این واقعیت اما زمانی که وارد این عرصه شدم و برای اولین بار توانستم در این علم به موفقیت برسم خود را در جایگاه بالاتر از یک انسان معمولی بودن می دانم. خودم را یک انسانی می دانم که یک صلاح قدرتمند در دستش دارد که با در دست داشتن آن صلاح قدرتمند نیاز به هیچ نیروی دیگری ندارد.  آن صلاح شبکه عصبی است. علمی که با ورودش ، زندگی بشر را تحت تاثیر مستقیم قرار داد. تاثیری غیر قابل انکار. </p>
+        </p>
+        <p dir="RTL" style="font-size:22px; color:rgb(105, 102, 102);">  اگر بخواهم طبقه بندی از علم شبکه عصبی داشته باشم باید بگویم از دیدگاه بنده علم شبکه عصبی زیر مجموعه ای از هوش مصنوعی است ،همانطور که گفتم طبقه بندی های مختلفی از دیدگاه های مختلف وجود دارد اما بطور کلی هوش مصنوعی را می توان زیر مجموعه ای از علم یادگیری ماشین دانست.  هوش مصنوعی، یادگیری ماشین را بصورت خودکار انجام می دهد. یعنی بجای این که یک انسان با استفاده از داده ها و تحلیل آنها نتایجش را در اختیار ماشین قرار دهد تا ماشین بتواند در زمانهای مختلف  یک تصمیم نسبتا درست بگیرد در شبکه عصبی داده ها درون ماشین آزمون و خطا می شود و بدون هیچ قاعده و قانونی این تحلیل انجام می شود. </p>          
+        <p dir="RTL" style="font-size:22px;color:rgb(105, 102, 102);">  شبکه عصبی از لایه های مختلف تشکیل شده که این لایه ها مجهز به گره هایی هستند که هر کدام از این گره ها به یک داده تعلق دارد. وقتی داده ها در لایه ها قرار گرفت با گذر از هر لایه عملیات و محاسبات ریاضی روی این گره ها انجام می شود. وقتی به لایه آخر رسید این داده ها پردازش شده و نتایجش در اختیار ماشین قرا می گیرد. در حقیقت می توان گفت بدون دخالت بشر داده ها تحلیل شد و نتیجه بدست آمد. </p>
+        <p dir="RTL" style="font-size:22px; color:rgb(105, 102, 102);"> در فرصت های مناسب درباره این علم تمام نشدنی و الگوریتم های آن بیشتر صحبت خواهم کرد. </p>
+        <p dir="RTL">&nbsp;</p>
+        
+          
+              <div class="d-flex justify-content-between align-articles-center mt-4">
+                <h5 class="text-muted mt-5" >
+                  
+                  <a class="btn btn-outline-danger" style="border:1px solid rgb(165, 50, 180); padding:20px; border-radius:15%; font-size:1.5em; color:rgb(165, 79, 182);" href="/auth/login">لایک کردن</a>
+                  
+                </h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+ <script src='main.js'></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"
+></script>
+<script src='jquery-3.7.0.slim.min.js'></script>
+<script src= 'bootstrap.bundle.min.js'></script>
+<script src='carousel.min.js'></script>
+
+
+</body>
+</html>
+
+
+
+
