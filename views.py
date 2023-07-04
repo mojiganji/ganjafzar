@@ -8,3 +8,14 @@ def home(request):
     
 def programming(request):
     return render(request, 'programming.html')
+
+def programming(request):
+    return render(request, 'artificial-intelligence.html')
+
+
+def programming(request):
+    return render(request, 'data-maining.html')
+
+
+def programming(request):
+    return render(request, 'machine-learning.html')
