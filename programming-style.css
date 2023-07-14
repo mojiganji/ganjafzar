@@ -45,67 +45,66 @@
   
    /* navigation section  */
   
-  header nav{
-    display: flex;
-    justify-content: space-between ;
-    padding:5px 15px;
-    font-size: 1em;
-  }
+header nav{
+  display: flex;
+  justify-content: space-between ;
+  padding: 10px 15px;
+  font-size: 1em;
+}
+
+header nav .nav-right{
+  display: flex;
+  align-items: center;
+}
+
+header nav .nav-right a{
+  color: #444;
+  padding: 5px 10px;
+  margin: 0px 5px;
+  font-size: 1.1em;
   
-  header nav .nav-right{
-    display: flex;
-    align-items: center;
-  }
-  
-  header nav .nav-right a{
-    color: #444;
-    
-    margin: 0px 5px;
-    font-size: 1.1em;
-    
-  }
-  
-  header nav .nav-right span{
-    margin-left:15px;
-    border:1px solid rgb(120, 76, 148);
-    border-radius: 15%;
-    padding:5px 10px;
-    background-color:rgb(204, 174, 216);
-    color:white;
-  }
-  
-  header nav .nav-left .register-login-btn{
-    border: 1px solid rgb(158, 129, 177);
-    margin:10px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin:15px;
-  }
-  
-  header nav .nav-left .register-login-btn i{
-    margin: 7px;
-    color: rgb(73, 33, 100);
-    font-size: 1.1em;
-  
-  }
-  
-  header nav .nav-left .register-login-btn a{
-    color: rgb(119, 75, 133);
-    margin: 0px 10px;
-    font-size: .9em;
-  }
+}
+
+header nav .nav-right span{
+  margin-left:15px;
+  border:1px solid rgb(120, 76, 148);
+  border-radius: 15%;
+  padding:5px 10px;
+  background-color:rgb(204, 174, 216);
+  color:white;
+}
+header nav .nav-left{
+  margin-right:50px;
+}
+header nav .nav-left .register-login-btn{
+  border: 1px solid rgb(158, 129, 177);
+  padding: 5px 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav .nav-left .register-login-btn i{
+  margin: 7px;
+  color:rgb(136, 96, 163);
+  font-size: 1.1em;
+
+}
+
+header nav .nav-left .register-login-btn a{
+  color: rgb(119, 75, 133);
+  margin: 0px 10px;
+  font-size: .9em;
+}
+
+
   header .container{
     margin:70px;
   }
   
-  /*
-    @media screen and (max-width:1200px){
-      .col-lg-8{
-        padding-right:50px;
-      }
-  }
+  
+   
 
   @media screen and (max-width:900px){
     
