@@ -49,17 +49,17 @@ header nav .nav-right a{
 
 header nav .nav-right span{
   margin-left:15px;
-  border:1px solid rgb(90, 87, 87);
+  border:1px solid rgb(120, 76, 148);
   border-radius: 15%;
   padding:5px 10px;
-  background-color:rgb(187, 184, 184);
+  background-color:rgb(204, 174, 216);
   color:white;
 }
 header nav .nav-left{
   margin-right:50px;
 }
 header nav .nav-left .register-login-btn{
-  border: 1px solid #666;
+  border: 1px solid rgb(158, 129, 177);
   padding: 5px 8px;
   border-radius: 5px;
   display: flex;
@@ -69,13 +69,13 @@ header nav .nav-left .register-login-btn{
 
 header nav .nav-left .register-login-btn i{
   margin: 7px;
-  color: #444;
+  color:rgb(136, 96, 163);
   font-size: 1.1em;
 
 }
 
 header nav .nav-left .register-login-btn a{
-  color: #444;
+  color: rgb(119, 75, 133);
   margin: 0px 10px;
   font-size: .9em;
 }
