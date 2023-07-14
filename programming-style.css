@@ -100,7 +100,7 @@
     margin:70px;
   }
   
-  
+  /*
     @media screen and (max-width:1200px){
       .col-lg-8{
         padding-right:50px;
@@ -108,15 +108,7 @@
   }
 
   @media screen and (max-width:900px){
-    .slider .slides .item span{
-      font-size: 2.2em;
-      margin-right:110px;
-      margin-top:210px; 
-    }
-    .slider .buttons i{
-      font-size:10px;
-        
-     }
+    
     }
     
     @media screen and (max-width:600px){
@@ -131,15 +123,9 @@
       .main-container{
         font-size:1.3em;
       }
-       .slider .slides .item span{
-      font-size: 1.1em;
-      margin-right:100px;
-      margin-top:210px; 
-    }
-    .slider .buttons i{
-      display:none;
-     }
-    }
+       
     
+    }
+    */
     
 
