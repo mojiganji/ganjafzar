@@ -57,7 +57,7 @@ ROOT_URLCONF = 'ganjafzar.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS':[''],
+        'DIRS':['templares'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
