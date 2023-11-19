@@ -14,6 +14,6 @@ urlpatterns = [
     path('neural-network' , views.neural),
     path('data-maining' , views.data),
     path('machine-learning' , views.machine),
-    path('accounts' , 'accounts.urls'),
+    path('accounts/' , include('accounts.urls')),
 ]
 
