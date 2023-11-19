@@ -9,7 +9,7 @@ from ganjafzar import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home),
+    path('', views.index),
     path('programming' , views.programming),
     path('neural-network' , views.neural),
     path('data-maining' , views.data),
