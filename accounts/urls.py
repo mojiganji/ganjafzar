@@ -1,6 +1,6 @@
 
 from django.urls import path
-from ganjafzar import views
+from accounts import views
 
 app_name='accounts'
 
