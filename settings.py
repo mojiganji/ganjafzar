@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'accounts',
 
 ]
 
@@ -56,7 +57,7 @@ ROOT_URLCONF = 'ganjafzar.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS':['templates'],
+        'DIRS':[''],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -129,7 +130,7 @@ USE_TZ = True
 
 
 # moghe run local hidden shod
-#STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 
 #STATICFILES_DIRS = (
 #os.path.join(BASE_DIR,'assets'),
