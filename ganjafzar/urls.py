@@ -13,7 +13,7 @@ urlpatterns = [
     path('programming' , views.programming),
     path('neural-network' , views.neural),
     path('data-maining' , views.data),
-    path('machine-learning' , views.machine)
+    path('machine-learning' , views.machine),
     path('accounts' , 'accounts.urls'),
 ]
 
