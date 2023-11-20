@@ -132,10 +132,10 @@ USE_TZ = True
 # moghe run local hidden shod
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
-os.path.join(BASE_DIR,'assets'),
+#STATICFILES_DIRS = (
+#os.path.join(BASE_DIR,'assets'),
 
-)
+#)
 
 
 
