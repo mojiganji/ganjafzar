@@ -1,6 +1,6 @@
 
 from django.urls import path
-from django.contrib.auth.forms import views
+from views import views
 
 app_name='accounts'
 
